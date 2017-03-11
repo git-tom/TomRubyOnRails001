@@ -54,3 +54,7 @@ class SayController < ApplicationController
     
   end
 end
+class USER
+  include ActiveModel::Model
+  attr_accessor :id, :pw # 属性はこのように定義する
+end
