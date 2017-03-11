@@ -4,6 +4,8 @@ require 'json'
 # See routing configuration in config/routes.rb
 class SayController < ApplicationController
   def login
+#    @user = Hash.new
+    @user = {:id=>nil,:pw=>nil}
   end
   def hello
     # get user ip from request
