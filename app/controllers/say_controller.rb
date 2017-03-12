@@ -6,7 +6,7 @@ class SayController < ApplicationController
   def login
 #    @user = Hash.new
 #    @user = {:id=>nil,:pw=>nil}
-    @user = Test.new
+    @user = User.new
   end
   def hello
     # get user ip from request
