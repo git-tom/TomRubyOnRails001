@@ -5,7 +5,8 @@ require 'json'
 class SayController < ApplicationController
   def login
 #    @user = Hash.new
-    @user = {:id=>nil,:pw=>nil}
+#    @user = {:id=>nil,:pw=>nil}
+    @user = Test.new
   end
   def hello
     # get user ip from request
