@@ -1,3 +1,5 @@
+require 'json'
+
 class Test
   include ActiveModel::Model
   attr_accessor :id ,:pw
