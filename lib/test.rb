@@ -1,6 +1,5 @@
-require 'json'
 
-class Test
+class Test < ApplicationController
   include ActiveModel::Model
   attr_accessor :id ,:pw
 #  validates :name, presence: true
